@@ -1,0 +1,378 @@
+定期的に実行
+Running as SYSTEM
+ビルドします。 ワークスペース: /var/lib/jenkins/workspace/MUFG データコンペティション2023/CreateGPFeature
+[CreateGPFeature] $ /bin/sh -xe /tmp/jenkins1232517850604943951.sh
++ cd /developer/muit_competition_2023/MUIT_competition/999.まわす
++ /opt/anaconda310/bin/python ./CreateFeatureByGP.py
+PREFIX_INPUT_DATA: /developer/muit_competition_2023/MUIT_competition/src/datasets/input
+PREFIX_OUTPUT_DATA: /developer/muit_competition_2023/MUIT_competition/src/datasets/output
+PREFIX_TOML: /developer/muit_competition_2023/MUIT_competition/src/def
+random_state: 4581
+0.5178210097180309
+
+add(max(X234, X238), add(max(X17, X245), min(min(min(sin(add(add(X234, X234), add(X26, add(X26, cos(X264))))), cos(X264)), min(cos(X264), min(min(min(min(div(add(X17, X148), X137), min(min(min(min(div(add(X17, X148), X137), min(min(min(add(X234, X234), X195), cos(X264)), cos(X264))), X195), min(cos(X264), X195)), cos(X264))), X195), add(X240, add(X240, add(X240, X240)))), X187))), add(X234, X234))))
+
+add(max(X234, X238), add(max(X17, X245), min(min(min(min(min(div(add(X17, X148), X137), min(add(X26, add(X234, X234)), cos(X264))), X195), add(X240, add(X240, add(X240, X240)))), min(add(X26, add(X26, cos(X264))), min(min(min(X187, cos(X264)), X195), add(X240, add(X240, add(X240, add(X240, add(X240, X240)))))))), sin(add(max(X17, X245), min(min(min(min(min(div(add(X17, X148), X137), min(min(min(add(X234, X234), X195), cos(X264)), cos(X264))), X195), add(X240, X195)), min(min(X187, add(X234, X234)), add(X240, add(X240, X240)))), sin(add(add(X234, X234), add(X26, add(X26, cos(X264)))))))))))
+
+add(max(X234, X238), add(max(X17, X245), min(min(min(min(add(X26, cos(X264)), X195), cos(X264)), min(min(min(min(min(div(add(X17, X148), X137), div(add(X17, min(min(X187, add(X234, X234)), min(X195, X234))), X137)), X195), add(X240, add(X240, add(X240, X240)))), min(min(X187, add(X234, X234)), add(X234, X234))), cos(X264))), sin(add(add(X234, X234), add(X26, add(X26, min(min(add(X26, cos(X264)), X195), add(X240, add(X240, add(X240, X240)))))))))))
+
+add(max(X234, X238), add(max(X17, X245), min(min(min(min(min(div(add(X17, X234), X137), min(min(min(add(X234, X234), X195), add(X240, add(X240, X240))), cos(X264))), X195), add(X240, add(X240, add(X240, X240)))), min(min(cos(X264), min(add(X240, X187), X187)), min(add(X240, add(X234, X234)), X195))), sin(add(add(X234, X234), add(X26, add(X26, cos(X264))))))))
+
+add(max(X234, X238), add(max(X17, X245), min(min(div(add(X17, X148), X137), min(min(add(X234, X234), min(min(add(X234, X234), cos(X264)), X187)), min(add(X240, div(add(X17, X148), X137)), X195))), sin(add(add(X234, X234), add(X26, add(X26, cos(X264))))))))
+
+add(max(X234, X238), add(max(X17, X245), min(min(min(min(min(div(add(X17, X148), X137), add(X234, X234)), X195), add(X240, X240)), min(cos(X264), min(min(X187, cos(X264)), add(X26, cos(X264))))), sin(add(add(X234, X234), add(X26, add(X26, cos(X264))))))))
+
+add(max(X234, X238), add(max(X17, X245), min(min(min(min(min(div(X264, X137), cos(X264)), X195), min(add(X234, X234), X195)), min(min(X187, add(X234, X234)), min(X187, cos(X264)))), sin(add(add(X234, X234), add(X26, add(X26, cos(X264))))))))
+
+add(max(X234, X238), add(max(X17, X245), min(min(cos(X264), min(min(min(min(min(div(add(X17, X148), X137), min(cos(X264), cos(X264))), X195), add(X240, add(X240, add(X240, X240)))), min(min(X187, add(X26, X195)), add(X234, X234))), add(X26, add(X26, cos(X264))))), sin(add(add(X234, X234), add(X26, add(X26, add(X234, X234))))))))
+
+add(max(X234, X238), add(max(X17, X245), min(min(min(add(max(X17, X245), min(min(min(min(min(div(add(X17, X148), X137), cos(X264)), X195), add(X240, X195)), min(min(X187, add(X234, X234)), min(min(min(min(add(X240, add(X240, add(X240, X240))), X195), cos(X264)), cos(X264)), X195))), sin(add(add(X234, X234), add(X26, add(X26, cos(X264))))))), add(X240, add(X240, add(X240, X240)))), min(min(X187, add(X234, X234)), min(X187, cos(X264)))), sin(add(add(X234, X234), add(X26, add(X26, cos(X264))))))))
+
+add(max(X234, X238), add(max(X17, X245), min(min(min(min(min(min(add(X234, X234), X195), add(X240, add(X240, add(X240, X240)))), X195), add(X240, add(X240, add(X240, X240)))), min(min(add(X26, add(X26, cos(X264))), add(X234, X234)), min(X187, cos(X264)))), sin(add(add(min(add(X240, add(X240, add(X240, X240))), X195), X234), add(X26, add(X26, cos(X264))))))))
+
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Number of positive: 28389, number of negative: 48020
+[LightGBM] [Info] Total Bins 27161
+[LightGBM] [Info] Number of data points in the train set: 76409, number of used features: 278
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.371540 -> initscore=-0.525616
+[LightGBM] [Info] Start training from score -0.525616
+
+random_state: 4581
+|   k | e                                                                     |   y |
+|-----|-----------------------------------------------------------------------|-----|
+| 176 | dev_value_counts_agent                                                | 359 |
+| 178 | dev_value_counts_adr                                                  | 346 |
+|  51 | hotelyyyy-mm-week_cat_combination_2                                   | 318 |
+|  27 | total_of_special_requests                                             | 276 |
+| 240 | countryyyyy-mm-week_cat_combination_2_target_encoder                  | 262 |
+| 187 | doamin_stay_adr_per_nights                                            | 259 |
+|  32 | lead_time*adr                                                         | 255 |
+| 123 | mean_distance_lead_time                                               | 221 |
+| 280 | X09                                                                   | 218 |
+| 167 | dev_value_counts_lead_time                                            | 216 |
+| 194 | p_high                                                                | 205 |
+| 239 | countrycustomer_type_cat_combination_2_target_encoder                 | 201 |
+| 127 | mean_distance_adr                                                     | 196 |
+|  35 | adr*arrival_date_week_number                                          | 194 |
+| 193 | p_low                                                                 | 194 |
+| 247 | market_segmentyyyy-mm-week_cat_combination_2_target_encoder           | 193 |
+| 105 | customer_typeyyyy-mm-week_cat_combination_2                           | 189 |
+| 232 | mealyyyy-mm-week_cat_combination_2_target_encoder                     | 186 |
+| 216 | arrival_date_monthcountry_cat_combination_2_target_encoder            | 179 |
+| 267 | customer_typeyyyy-mm-week_cat_combination_2_target_encoder            | 173 |
+|  78 | countryyyyy-mm-week_cat_combination_2                                 | 167 |
+| 234 | countrymarket_segment_cat_combination_2_target_encoder                | 165 |
+|  40 | lead_time*arrival_date_week_number*arrival_date_day_of_month          | 163 |
+| 255 | reserved_room_typeassigned_room_type_cat_combination_2_target_encoder | 159 |
+| 225 | mealcountry_cat_combination_2_target_encoder                          | 158 |
+| 186 | domain_all_stay_days                                                  | 157 |
+| 213 | hotelyyyy-mm-week_cat_combination_2_target_encoder                    | 154 |
+|   9 | adults                                                                | 154 |
+|  22 | agent                                                                 | 153 |
+|  33 | lead_time*arrival_date_week_number                                    | 152 |
+|  39 | lead_time*adr*arrival_date_day_of_month                               | 152 |
+| 262 | assigned_room_typeyyyy-mm-week_cat_combination_2_target_encoder       | 150 |
+| 265 | deposit_typeyyyy-mm-week_cat_combination_2_target_encoder             | 149 |
+|  38 | lead_time*adr*arrival_date_week_number                                | 148 |
+|  41 | adr*arrival_date_week_number*arrival_date_day_of_month                | 147 |
+| 206 | hotelcountry_cat_combination_2_target_encoder                         | 140 |
+| 241 | countryfeature_seasons_cat_combination_2_target_encoder               | 140 |
+|   0 | ID                                                                    | 138 |
+|  34 | lead_time*arrival_date_day_of_month                                   | 137 |
+| 271 | ID_compare_match                                                      | 136 |
+|  36 | adr*arrival_date_day_of_month                                         | 135 |
+| 235 | countrydistribution_channel_cat_combination_2_target_encoder          | 132 |
+| 179 | starndard_lead_time                                                   | 128 |
+| 192 | domain_previous_booking_minus_canceled_and_notcanceled                | 128 |
+| 258 | reserved_room_typeyyyy-mm-week_cat_combination_2_target_encoder       | 124 |
+|  37 | arrival_date_week_number*arrival_date_day_of_month                    | 120 |
+| 236 | countryreserved_room_type_cat_combination_2_target_encoder            | 117 |
+| 253 | distribution_channelyyyy-mm-week_cat_combination_2_target_encoder     | 114 |
+| 112 | math_stays_in_weekend_nights_mean_groupby_yyyy-mm-week                | 113 |
+|  91 | distribution_channelyyyy-mm-week_cat_combination_2                    | 109 |
+
+|   k | e                                                                       |   y |
+|-----|-------------------------------------------------------------------------|-----|
+|   0 | ID                                                                      | 138 |
+|   1 | hotel                                                                   |   0 |
+|   2 | lead_time                                                               |  62 |
+|   3 | arrival_date_year                                                       |   0 |
+|   4 | arrival_date_month                                                      |   5 |
+|   5 | arrival_date_week_number                                                |  50 |
+|   6 | arrival_date_day_of_month                                               |  78 |
+|   7 | stays_in_weekend_nights                                                 |  25 |
+|   8 | stays_in_week_nights                                                    |  49 |
+|   9 | adults                                                                  | 154 |
+|  10 | children                                                                |  25 |
+|  11 | babies                                                                  |   0 |
+|  12 | meal                                                                    |   0 |
+|  13 | country                                                                 |   1 |
+|  14 | market_segment                                                          |   0 |
+|  15 | distribution_channel                                                    |   0 |
+|  16 | is_repeated_guest                                                       |  28 |
+|  17 | previous_cancellations                                                  |   9 |
+|  18 | previous_bookings_not_canceled                                          |  37 |
+|  19 | reserved_room_type                                                      |   0 |
+|  20 | assigned_room_type                                                      |   0 |
+|  21 | deposit_type                                                            |   0 |
+|  22 | agent                                                                   | 153 |
+|  23 | days_in_waiting_list                                                    |  11 |
+|  24 | customer_type                                                           |   0 |
+|  25 | adr                                                                     | 106 |
+|  26 | required_car_parking_spaces                                             |  76 |
+|  27 | total_of_special_requests                                               | 276 |
+|  28 | yyyy-mm-week_UNIXTIME                                                   |   8 |
+|  29 | UNIXTIME                                                                |  76 |
+|  30 | is_weekend                                                              |  23 |
+|  31 | feature_seasons                                                         |   0 |
+|  32 | lead_time*adr                                                           | 255 |
+|  33 | lead_time*arrival_date_week_number                                      | 152 |
+|  34 | lead_time*arrival_date_day_of_month                                     | 137 |
+|  35 | adr*arrival_date_week_number                                            | 194 |
+|  36 | adr*arrival_date_day_of_month                                           | 135 |
+|  37 | arrival_date_week_number*arrival_date_day_of_month                      | 120 |
+|  38 | lead_time*adr*arrival_date_week_number                                  | 148 |
+|  39 | lead_time*adr*arrival_date_day_of_month                                 | 152 |
+|  40 | lead_time*arrival_date_week_number*arrival_date_day_of_month            | 163 |
+|  41 | adr*arrival_date_week_number*arrival_date_day_of_month                  | 147 |
+|  42 | hotelarrival_date_month_cat_combination_2                               |  40 |
+|  43 | hotelmeal_cat_combination_2                                             |  12 |
+|  44 | hotelcountry_cat_combination_2                                          |  65 |
+|  45 | hotelmarket_segment_cat_combination_2                                   |  10 |
+|  46 | hoteldistribution_channel_cat_combination_2                             |  11 |
+|  47 | hotelreserved_room_type_cat_combination_2                               |   7 |
+|  48 | hotelassigned_room_type_cat_combination_2                               |  11 |
+|  49 | hoteldeposit_type_cat_combination_2                                     |   0 |
+|  50 | hotelcustomer_type_cat_combination_2                                    |   6 |
+|  51 | hotelyyyy-mm-week_cat_combination_2                                     | 318 |
+|  52 | hotelfeature_seasons_cat_combination_2                                  |   7 |
+|  53 | arrival_date_monthmeal_cat_combination_2                                |  10 |
+|  54 | arrival_date_monthcountry_cat_combination_2                             |  78 |
+|  55 | arrival_date_monthmarket_segment_cat_combination_2                      |  12 |
+|  56 | arrival_date_monthdistribution_channel_cat_combination_2                |   0 |
+|  57 | arrival_date_monthreserved_room_type_cat_combination_2                  |   7 |
+|  58 | arrival_date_monthassigned_room_type_cat_combination_2                  |  12 |
+|  59 | arrival_date_monthdeposit_type_cat_combination_2                        |   0 |
+|  60 | arrival_date_monthcustomer_type_cat_combination_2                       |  15 |
+|  61 | arrival_date_monthyyyy-mm-week_cat_combination_2                        |  35 |
+|  62 | arrival_date_monthfeature_seasons_cat_combination_2                     |   1 |
+|  63 | mealcountry_cat_combination_2                                           |  80 |
+|  64 | mealmarket_segment_cat_combination_2                                    |   8 |
+|  65 | mealdistribution_channel_cat_combination_2                              |   0 |
+|  66 | mealreserved_room_type_cat_combination_2                                |   5 |
+|  67 | mealassigned_room_type_cat_combination_2                                |  13 |
+|  68 | mealdeposit_type_cat_combination_2                                      |   2 |
+|  69 | mealcustomer_type_cat_combination_2                                     |   9 |
+|  70 | mealyyyy-mm-week_cat_combination_2                                      | 105 |
+|  71 | mealfeature_seasons_cat_combination_2                                   |  10 |
+|  72 | countrymarket_segment_cat_combination_2                                 |  23 |
+|  73 | countrydistribution_channel_cat_combination_2                           |  12 |
+|  74 | countryreserved_room_type_cat_combination_2                             |  38 |
+|  75 | countryassigned_room_type_cat_combination_2                             |  23 |
+|  76 | countrydeposit_type_cat_combination_2                                   |   1 |
+|  77 | countrycustomer_type_cat_combination_2                                  |  16 |
+|  78 | countryyyyy-mm-week_cat_combination_2                                   | 167 |
+|  79 | countryfeature_seasons_cat_combination_2                                |  36 |
+|  80 | market_segmentdistribution_channel_cat_combination_2                    |  16 |
+|  81 | market_segmentreserved_room_type_cat_combination_2                      |   9 |
+|  82 | market_segmentassigned_room_type_cat_combination_2                      |  39 |
+|  83 | market_segmentdeposit_type_cat_combination_2                            |   0 |
+|  84 | market_segmentcustomer_type_cat_combination_2                           |  44 |
+|  85 | market_segmentyyyy-mm-week_cat_combination_2                            |  97 |
+|  86 | market_segmentfeature_seasons_cat_combination_2                         |   7 |
+|  87 | distribution_channelreserved_room_type_cat_combination_2                |   7 |
+|  88 | distribution_channelassigned_room_type_cat_combination_2                |  14 |
+|  89 | distribution_channeldeposit_type_cat_combination_2                      |   2 |
+|  90 | distribution_channelcustomer_type_cat_combination_2                     |  13 |
+|  91 | distribution_channelyyyy-mm-week_cat_combination_2                      | 109 |
+|  92 | distribution_channelfeature_seasons_cat_combination_2                   |   8 |
+|  93 | reserved_room_typeassigned_room_type_cat_combination_2                  |   0 |
+|  94 | reserved_room_typedeposit_type_cat_combination_2                        |   0 |
+|  95 | reserved_room_typecustomer_type_cat_combination_2                       |   7 |
+|  96 | reserved_room_typeyyyy-mm-week_cat_combination_2                        |  75 |
+|  97 | reserved_room_typefeature_seasons_cat_combination_2                     |   8 |
+|  98 | assigned_room_typedeposit_type_cat_combination_2                        |   0 |
+|  99 | assigned_room_typecustomer_type_cat_combination_2                       |   5 |
+| 100 | assigned_room_typeyyyy-mm-week_cat_combination_2                        |  78 |
+| 101 | assigned_room_typefeature_seasons_cat_combination_2                     |   7 |
+| 102 | deposit_typecustomer_type_cat_combination_2                             |   2 |
+| 103 | deposit_typeyyyy-mm-week_cat_combination_2                              |  61 |
+| 104 | deposit_typefeature_seasons_cat_combination_2                           |   1 |
+| 105 | customer_typeyyyy-mm-week_cat_combination_2                             | 189 |
+| 106 | customer_typefeature_seasons_cat_combination_2                          |  12 |
+| 107 | yyyy-mm-weekfeature_seasons_cat_combination_2                           |  11 |
+| 108 | math_lead_time_sum_groupby_yyyy-mm-week                                 |  49 |
+| 109 | math_lead_time_mean_groupby_yyyy-mm-week                                |  46 |
+| 110 | math_lead_time_amax_groupby_yyyy-mm-week                                |  29 |
+| 111 | math_stays_in_weekend_nights_sum_groupby_yyyy-mm-week                   |  79 |
+| 112 | math_stays_in_weekend_nights_mean_groupby_yyyy-mm-week                  | 113 |
+| 113 | math_stays_in_weekend_nights_amax_groupby_yyyy-mm-week                  |  16 |
+| 114 | math_stays_in_week_nights_sum_groupby_yyyy-mm-week                      |  44 |
+| 115 | math_stays_in_week_nights_mean_groupby_yyyy-mm-week                     |  73 |
+| 116 | math_stays_in_week_nights_amax_groupby_yyyy-mm-week                     |   0 |
+| 117 | math_adults_sum_groupby_yyyy-mm-week                                    |  55 |
+| 118 | math_adults_mean_groupby_yyyy-mm-week                                   | 100 |
+| 119 | math_adults_amax_groupby_yyyy-mm-week                                   |   6 |
+| 120 | math_adr_sum_groupby_yyyy-mm-week                                       |  47 |
+| 121 | math_adr_mean_groupby_yyyy-mm-week                                      |  40 |
+| 122 | math_adr_amax_groupby_yyyy-mm-week                                      |  70 |
+| 123 | mean_distance_lead_time                                                 | 221 |
+| 124 | mean_distance_stays_in_weekend_nights                                   |  22 |
+| 125 | mean_distance_stays_in_week_nights                                      |  29 |
+| 126 | mean_distance_adutls                                                    |   0 |
+| 127 | mean_distance_adr                                                       | 196 |
+| 128 | binning_labels_lead_time                                                |   8 |
+| 129 | binning_labels_adr                                                      |   7 |
+| 130 | binning_labels_lead_time_0_20                                           |   3 |
+| 131 | binning_labels_lead_time_20_40                                          |  16 |
+| 132 | binning_labels_lead_time_40_60                                          |  12 |
+| 133 | binning_labels_lead_time_60_80                                          |  15 |
+| 134 | binning_labels_lead_time_80_100                                         |  17 |
+| 135 | binning_labels_lead_time_100_120                                        |   5 |
+| 136 | binning_labels_lead_time_120_140                                        |   4 |
+| 137 | binning_labels_lead_time_140_160                                        |  10 |
+| 138 | binning_labels_lead_time_160_180                                        |  11 |
+| 139 | binning_labels_lead_time_180_200                                        |  11 |
+| 140 | binning_labels_lead_time_200_220                                        |   4 |
+| 141 | binning_labels_lead_time_220_240                                        |   1 |
+| 142 | binning_labels_lead_time_240_260                                        |   0 |
+| 143 | binning_labels_lead_time_260_280                                        |   7 |
+| 144 | binning_labels_lead_time_280_300                                        |   0 |
+| 145 | binning_labels_lead_time_300_320                                        |   1 |
+| 146 | binning_labels_lead_time_320_340                                        |   1 |
+| 147 | binning_labels_lead_time_340_360                                        |   0 |
+| 148 | binning_labels_lead_time_360_380                                        |   0 |
+| 149 | binning_labels_adr_0_26                                                 |   1 |
+| 150 | binning_labels_adr_26_52                                                |   4 |
+| 151 | binning_labels_adr_52_78                                                |   8 |
+| 152 | binning_labels_adr_78_104                                               |   6 |
+| 153 | binning_labels_adr_104_130                                              |   6 |
+| 154 | binning_labels_adr_130_156                                              |   6 |
+| 155 | binning_labels_adr_156_182                                              |   4 |
+| 156 | binning_labels_adr_182_208                                              |   4 |
+| 157 | binning_labels_adr_208_234                                              |   0 |
+| 158 | binning_labels_adr_234_260                                              |   2 |
+| 159 | binning_labels_adr_260_286                                              |   1 |
+| 160 | binning_labels_adr_286_312                                              |   0 |
+| 161 | binning_labels_adr_312_338                                              |   0 |
+| 162 | binning_labels_adr_338_364                                              |   0 |
+| 163 | binning_labels_adr_364_390                                              |   0 |
+| 164 | binning_labels_adr_390_416                                              |   0 |
+| 165 | binning_labels_adr_416_442                                              |   0 |
+| 166 | binning_labels_adr_442_468                                              |   0 |
+| 167 | dev_value_counts_lead_time                                              | 216 |
+| 168 | dev_value_counts_stays_in_weekend_nights                                |  29 |
+| 169 | dev_value_counts_stays_in_week_nights                                   |  45 |
+| 170 | dev_value_counts_adults                                                 |  31 |
+| 171 | dev_value_counts_market_segment                                         |   0 |
+| 172 | dev_value_counts_distribution_channel                                   |  10 |
+| 173 | dev_value_counts_reserved_room_type                                     |  14 |
+| 174 | dev_value_counts_assigned_room_type                                     |   3 |
+| 175 | dev_value_counts_deposit_type                                           |   0 |
+| 176 | dev_value_counts_agent                                                  | 359 |
+| 177 | dev_value_counts_customer_type                                          |   0 |
+| 178 | dev_value_counts_adr                                                    | 346 |
+| 179 | starndard_lead_time                                                     | 128 |
+| 180 | starndard_adr                                                           |  45 |
+| 181 | starndard_agent                                                         |  95 |
+| 182 | relation_market_segment_and_deposite_type                               |   0 |
+| 183 | relation_market_segment_and_deposit_type_and_customer_type              |   0 |
+| 184 | relation_distribution_channel_and_deposit_type_and_customer_type        |   0 |
+| 185 | domain_family_size                                                      |  11 |
+| 186 | domain_all_stay_days                                                    | 157 |
+| 187 | doamin_stay_adr_per_nights                                              | 259 |
+| 188 | domain_travel_group                                                     |  27 |
+| 189 | domain_is_deposit                                                       |   0 |
+| 190 | domain_is_day_trip                                                      |   0 |
+| 191 | domain_high_cancel_rate_week                                            |   2 |
+| 192 | domain_previous_booking_minus_canceled_and_notcanceled                  | 128 |
+| 193 | p_low                                                                   | 194 |
+| 194 | p_high                                                                  | 205 |
+| 195 | dev_cancel_singularity_classification                                   |   0 |
+| 196 | hotel_target_encoder                                                    |   5 |
+| 197 | meal_target_encoder                                                     |  15 |
+| 198 | country_target_encoder                                                  |  71 |
+| 199 | market_segment_target_encoder                                           |   8 |
+| 200 | distribution_channel_target_encoder                                     |  10 |
+| 201 | deposit_type_target_encoder                                             |   2 |
+| 202 | customer_type_target_encoder                                            |  10 |
+| 203 | feature_seasons_target_encoder                                          |   4 |
+| 204 | hotelarrival_date_month_cat_combination_2_target_encoder                |  75 |
+| 205 | hotelmeal_cat_combination_2_target_encoder                              |  49 |
+| 206 | hotelcountry_cat_combination_2_target_encoder                           | 140 |
+| 207 | hotelmarket_segment_cat_combination_2_target_encoder                    |  66 |
+| 208 | hoteldistribution_channel_cat_combination_2_target_encoder              |  14 |
+| 209 | hotelreserved_room_type_cat_combination_2_target_encoder                |  59 |
+| 210 | hotelassigned_room_type_cat_combination_2_target_encoder                |  32 |
+| 211 | hoteldeposit_type_cat_combination_2_target_encoder                      |   6 |
+| 212 | hotelcustomer_type_cat_combination_2_target_encoder                     |  20 |
+| 213 | hotelyyyy-mm-week_cat_combination_2_target_encoder                      | 154 |
+| 214 | hotelfeature_seasons_cat_combination_2_target_encoder                   |  52 |
+| 215 | arrival_date_monthmeal_cat_combination_2_target_encoder                 |  66 |
+| 216 | arrival_date_monthcountry_cat_combination_2_target_encoder              | 179 |
+| 217 | arrival_date_monthmarket_segment_cat_combination_2_target_encoder       |  90 |
+| 218 | arrival_date_monthdistribution_channel_cat_combination_2_target_encoder |  74 |
+| 219 | arrival_date_monthreserved_room_type_cat_combination_2_target_encoder   |  86 |
+| 220 | arrival_date_monthassigned_room_type_cat_combination_2_target_encoder   |  75 |
+| 221 | arrival_date_monthdeposit_type_cat_combination_2_target_encoder         |  45 |
+| 222 | arrival_date_monthcustomer_type_cat_combination_2_target_encoder        |  52 |
+| 223 | arrival_date_monthyyyy-mm-week_cat_combination_2_target_encoder         | 104 |
+| 224 | arrival_date_monthfeature_seasons_cat_combination_2_target_encoder      |  15 |
+| 225 | mealcountry_cat_combination_2_target_encoder                            | 158 |
+| 226 | mealmarket_segment_cat_combination_2_target_encoder                     |  63 |
+| 227 | mealdistribution_channel_cat_combination_2_target_encoder               |  41 |
+| 228 | mealreserved_room_type_cat_combination_2_target_encoder                 |  46 |
+| 229 | mealassigned_room_type_cat_combination_2_target_encoder                 |  46 |
+| 230 | mealdeposit_type_cat_combination_2_target_encoder                       |  27 |
+| 231 | mealcustomer_type_cat_combination_2_target_encoder                      |  61 |
+| 232 | mealyyyy-mm-week_cat_combination_2_target_encoder                       | 186 |
+| 233 | mealfeature_seasons_cat_combination_2_target_encoder                    |  67 |
+| 234 | countrymarket_segment_cat_combination_2_target_encoder                  | 165 |
+| 235 | countrydistribution_channel_cat_combination_2_target_encoder            | 132 |
+| 236 | countryreserved_room_type_cat_combination_2_target_encoder              | 117 |
+| 237 | countryassigned_room_type_cat_combination_2_target_encoder              | 102 |
+| 238 | countrydeposit_type_cat_combination_2_target_encoder                    |  33 |
+| 239 | countrycustomer_type_cat_combination_2_target_encoder                   | 201 |
+| 240 | countryyyyy-mm-week_cat_combination_2_target_encoder                    | 262 |
+| 241 | countryfeature_seasons_cat_combination_2_target_encoder                 | 140 |
+| 242 | market_segmentdistribution_channel_cat_combination_2_target_encoder     |  28 |
+| 243 | market_segmentreserved_room_type_cat_combination_2_target_encoder       |  62 |
+| 244 | market_segmentassigned_room_type_cat_combination_2_target_encoder       |  68 |
+| 245 | market_segmentdeposit_type_cat_combination_2_target_encoder             |  11 |
+| 246 | market_segmentcustomer_type_cat_combination_2_target_encoder            |  66 |
+| 247 | market_segmentyyyy-mm-week_cat_combination_2_target_encoder             | 193 |
+| 248 | market_segmentfeature_seasons_cat_combination_2_target_encoder          |  63 |
+| 249 | distribution_channelreserved_room_type_cat_combination_2_target_encoder |  31 |
+| 250 | distribution_channelassigned_room_type_cat_combination_2_target_encoder |  31 |
+| 251 | distribution_channeldeposit_type_cat_combination_2_target_encoder       |   5 |
+| 252 | distribution_channelcustomer_type_cat_combination_2_target_encoder      |  35 |
+| 253 | distribution_channelyyyy-mm-week_cat_combination_2_target_encoder       | 114 |
+| 254 | distribution_channelfeature_seasons_cat_combination_2_target_encoder    |  49 |
+| 255 | reserved_room_typeassigned_room_type_cat_combination_2_target_encoder   | 159 |
+| 256 | reserved_room_typedeposit_type_cat_combination_2_target_encoder         |  26 |
+| 257 | reserved_room_typecustomer_type_cat_combination_2_target_encoder        |  49 |
+| 258 | reserved_room_typeyyyy-mm-week_cat_combination_2_target_encoder         | 124 |
+| 259 | reserved_room_typefeature_seasons_cat_combination_2_target_encoder      |  62 |
+| 260 | assigned_room_typedeposit_type_cat_combination_2_target_encoder         |  13 |
+| 261 | assigned_room_typecustomer_type_cat_combination_2_target_encoder        |  46 |
+| 262 | assigned_room_typeyyyy-mm-week_cat_combination_2_target_encoder         | 150 |
+| 263 | assigned_room_typefeature_seasons_cat_combination_2_target_encoder      |  44 |
+| 264 | deposit_typecustomer_type_cat_combination_2_target_encoder              |  98 |
+| 265 | deposit_typeyyyy-mm-week_cat_combination_2_target_encoder               | 149 |
+| 266 | deposit_typefeature_seasons_cat_combination_2_target_encoder            |  13 |
+| 267 | customer_typeyyyy-mm-week_cat_combination_2_target_encoder              | 173 |
+| 268 | customer_typefeature_seasons_cat_combination_2_target_encoder           |  56 |
+| 269 | yyyy-mm-weekfeature_seasons_cat_combination_2_target_encoder            |  78 |
+| 270 | domain_travel_group_target_encoder                                      |  80 |
+| 271 | ID_compare_match                                                        | 136 |
+| 272 | X01                                                                     |  10 |
+| 273 | X02                                                                     |  44 |
+| 274 | X03                                                                     |  12 |
+| 275 | X04                                                                     |  44 |
+| 276 | X05                                                                     |  35 |
+| 277 | X06                                                                     |  63 |
+| 278 | X07                                                                     |  59 |
+| 279 | X08                                                                     |  74 |
+| 280 | X09                                                                     | 218 |
+| 281 | X10                                                                     |  71 |
+Finished: SUCCESS
