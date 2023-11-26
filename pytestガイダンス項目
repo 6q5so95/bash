@@ -105,9 +105,11 @@ project_root/
 │   ├── validator/
 │   ├── converter/
 │   ├── table/
-│   ├── interface/
+│   ├── shared/
 │       ├── receive/
-│       └── transfer/
+│       └── send/
+│   ├── log/
+│   ├── work/
 │
 └── test/
     ├── package1/
@@ -122,6 +124,8 @@ project_root/
     ├── validator/
     ├── converter/
     ├── table/
-    ├── interface/
+    ├── shared/
         ├── receive/
-        └── transfer/
+        └── send/
+│   ├── log/
+│   ├── work/
