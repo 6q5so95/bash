@@ -19,17 +19,7 @@ pyflakes
 ```
 - pip install flake8-bugbear flake8-builtins flake8-eradicate pep8-naming flake8-pytest-style flake8-isort flake8-quotes flake8-print flake8-annotations flake8-mypy flake8-docstrings pycodestyle pyflakes
 
-## 循環的複雑度 (Cyclomatic complexity) -> CC
-- lizerd
-- pip install lizard
-- lizard ./complexy.py
-
----
-
-## 認知的複雑度 (Cognitive Complexity)
-- flake8-cognitive-complexity
-- pip install flake8-cognitive-complexity
-- .flake8ファイルを作成
+##.flake8ファイルを作成
 ```
 [flake8]
 # E501: line too long (82 > 79 characters)
@@ -80,6 +70,18 @@ annotations-multiline-no-trailing-comma = true
 #
 #
 ```
+
+## 循環的複雑度 (Cyclomatic complexity) -> CC
+- lizerd
+- pip install lizard
+- lizard ./complexy.py
+
+---
+
+## 認知的複雑度 (Cognitive Complexity)
+- flake8-cognitive-complexity
+- pip install flake8-cognitive-complexity
+
 - flake8 --enable-extensions cognitive_complexity ./complexy.py
 
 ---
