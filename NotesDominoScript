@@ -1,0 +1,20 @@
+import pydomino
+
+# ローカルのNotes.nsfへのパス
+nsf_path = "/home/user/data/notes.nsf"
+
+# データベース接続  
+server = "localhost"
+db = pydomino.Database(server, nsf_path)
+
+# ビューからデータ取得
+view = db.view("VIEW_NAME")
+
+# 行データを反復処理
+for doc in view:
+   # フィールド値にアクセス
+   print(doc["field1"]) 
+   print(doc["field2"])
+
+# 集計データも取得可能  
+view.column_values("列名")
