@@ -3,7 +3,7 @@ target-version = "py310"
 line-length = 120
 
 [tool.ruff.lint]
-# https://docs.astral.sh/ruff/rules/#ruff-specific-rules-ruf
+# https://docs.astral.sh/ruff/rules/
 select = ["ALL"]
 ignore = [
     "G004",    # `logging-f-string` : loggingでf-stringを使いたいので無視する
