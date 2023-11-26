@@ -1,4 +1,5 @@
 import pydomino
+import pandas as pd
 
 # ローカルのNotes.nsfへのパス
 nsf_path = "/home/user/data/notes.nsf"
@@ -18,3 +19,18 @@ for doc in view:
 
 # 集計データも取得可能  
 view.column_values("列名")
+
+
+# 列名を取得  
+columns = [c.lower() for c in table_view.columns]
+
+# 行のデータを取得
+data = []
+for row in table_view:
+    row_data = [row[c] for c in columns] 
+    data.append(row_data)
+    
+# DataFrameを作成    
+df = pd.DataFrame(data, columns=columns)
+
+print(df)
