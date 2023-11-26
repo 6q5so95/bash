@@ -14,8 +14,53 @@ https://zenn.dev/shimakaze_soft/scraps/4b02e4662e6d1f
 - .flake8ファイルを作成
 ```
 [flake8]
-enable-extensions = cognitive_complexity
+# E501: line too long (82 > 79 characters)
+# W503: line break before binary operator
+# F401: module imported but unused
+# D400 First line should end with a period
+# D200 One-line docstring should fit on one line with quotes
+ignore = E501,W503,F401,D400,D200
+
+# Source directories
+exclude =
+    .git,
+    __pycache__,
+    build,
+    dist
+
+# McCabe complexity threshold
+max-complexity = 10
+
+# cognitive_complexity
+enable-extensions = cognitive_complexity,G
 cognitive-complexity-threshold = 1
+
+#max-line-length
+max-line-length = 120
+
+# flake8-eradicate
+eradicate-ignore-annotations = True
+eradicate-ignore-warnings = True
+
+# flake8-isort
+#known_third_party = your_third_party_library
+
+# flake8-quotes
+inline-quotes = double
+multiline-quotes = double
+
+## flake8-pytest-style
+pytest-fixture-no-parentheses = true
+
+## flake8-annotations
+annotations-complexity = 2
+annotations-multiline-no-trailing-comma = true
+
+## flake8-mypy
+#plugins = mypy
+#mypy-config = mypy.ini
+#
+#
 ```
 - flake8 --enable-extensions cognitive_complexity ./complexy.py
 
