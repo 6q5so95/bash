@@ -87,7 +87,7 @@ pytestの実装に関するガイドラインとして定義するべき主な�
 ---
 
 project_root/
-│
+├── pyproject.toml  (ruff定義ファイル)
 ├── src/
 │   ├── package1/
 │   │   ├── __init__.py
