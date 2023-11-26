@@ -23,6 +23,7 @@ ignore = [
     "Q001",    # singleQuoteを許容
     "Q002",    # singleQuoteを許容
     "D415",    # この縛りは不要　First line should end with a period, question mark, or exclamation point
+    "PERF402", # 過剰検出 append loopは許容
 
     # 以下のルールは開発実態に応じてチューニングを要するかもしれない
     #"RSE",     # flake8-raise
