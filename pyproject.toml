@@ -22,6 +22,7 @@ ignore = [
     "Q000",    # singleQuoteを許容
     "Q001",    # singleQuoteを許容
     "Q002",    # singleQuoteを許容
+    "D415",    # この縛りは不要　First line should end with a period, question mark, or exclamation point
 
     # 以下のルールは開発実態に応じてチューニングを要するかもしれない
     #"RSE",     # flake8-raise
