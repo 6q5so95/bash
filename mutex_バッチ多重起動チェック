@@ -1,0 +1,48 @@
+import win32event
+import win32api
+
+class MutexManager:
+    def __init__(self, mutex_name):
+        self.mutex_name = mutex_name
+        self.mutex_handle = None
+
+    def acquire_lock(self):
+        try:
+            # Mutexを作成し、取得を試みる
+            self.mutex_handle = win32event.CreateMutex(None, 1, self.mutex_name)
+        except win32api.error as e:
+            if e.winerror == 5:  # ERROR_ACCESS_DENIED
+                print("Mutexが既に取得されています。")
+                return False
+            else:
+                raise
+
+        return True
+
+    def release_lock(self):
+        if self.mutex_handle:
+            # Mutexを解放する
+            win32event.CloseHandle(self.mutex_handle)
+            self.mutex_handle = None
+
+# 利用例
+if __name__ == "__main__":
+    mutex_name = 'MyProgramMutex'
+    
+    mutex_manager = MutexManager(mutex_name)
+
+    # ロックが取得できない場合の処理
+    if not mutex_manager.acquire_lock():
+        # ロックが既に取得されていた場合の処理
+        print("プログラムが既に実行中です.")
+    else:
+        try:
+            # ロックが取得できた場合の処理
+            print("Mutexが取得されました.")
+
+            # ここにアプリコードを書く
+
+        finally:
+            # ロックを解放する
+            mutex_manager.release_lock()
+            print("Mutexが解放されました.")
